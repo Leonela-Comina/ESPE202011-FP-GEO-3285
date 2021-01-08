@@ -32,34 +32,39 @@ public class BasicOperation {
     int quotien;
     int remainder;
     
-    addend1= -5;
-    addend2= 18;      
-    minuend= -23;
-    subtrahend= -6;
-    multiplicant= 4;
-    multiplier= -9;
-    dividend= 14;
-    divisor= 7;        
+    addend1 = -5;
+    addend2 = 18;      
+    minuend = -23;
+    subtrahend = -6;
+    multiplicant = 4;
+    multiplier = -9;
+    dividend = 14;
+    divisor = 7;        
     
     sum = addend1 + addend2;
             
-System.out.println(" the addition of " + addend1 + " + " + addend2 + " is equal to --> " + sum);
+System.out.println("the addition of " + addend1 + " + " + addend2 + 
+        " is equal to --> " + sum);
     
 difference = minuend - subtrahend;  
       
-System.out.println("The substration of " + minuend + " - " + subtrahend + " is equal to --> " + difference);
+System.out.println("the substration of " + minuend + " - " + subtrahend + 
+        " is equal to --> " + difference);
 
 product = multiplicant * multiplier;
 
-System.out.println(" the multiplication of "+ multiplicant + " * " + multiplier + " is equal to -->" + product);
+System.out.println(" the multiplication of "+ multiplicant + " * " + multiplier 
+        + " is equal to -->" + product);
    
 quotien= dividend / divisor;
     
-System.out.println(" the division of "+ dividend + " / " + divisor + " is equal to -->" + quotien);    
+System.out.println("the division of "+ dividend + " / " + divisor + 
+        " is equal to --> " + quotien);    
 
 remainder = dividend % divisor;
 
-System.out.println(" the division remainder of " + dividend + " % " + divisor + " is equal to -->" + remainder);
+System.out.println("the division remainder of " + dividend + " % " + divisor + 
+        " is equal to --> " + remainder);
     }
     
 }

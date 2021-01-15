@@ -34,22 +34,19 @@ public class HW03Iterations {
     
     int difference = 4;
     int initvalue = 6;
-     int number;
+     int number = 15;
     int finalvalue= 62;
     
-    System.out.println("Arithmetic progression from 6 to 60 ");
+    System.out.println("Arithmetic progression from 6 to 62 ");
     
-    while (initvalue<=62){
+    while (initvalue <= 62){
         
     System.out.println( initvalue );
     
    initvalue += difference;
    
-   
-    }
+   }
     
-    
-    
-    
-  }
+ }
+
 }

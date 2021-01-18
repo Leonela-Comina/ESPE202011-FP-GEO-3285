@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package hw.pkg04menu;
+package hw04_menues;
 
 /**
  *
  * @author BIOSTAR
  */
-public class HW04Menu {
+public class HW04_Menues {
 
     /**
      * @param args the command line arguments

@@ -39,7 +39,7 @@ public class HW04Menus {
                     System.out.println("enter a base -> ");
                     base2 = input.nextInt();
                     System.out.println("enter a exponent -> ");
-                    exponent = input.nextInt();
+                    exponent = input.nextDouble();
                    power= Math.pow(base2, exponent);
               System.out.println(" the power of " + base2 + " to " 
                       + exponent + " is equal to --> "+ power);
@@ -52,9 +52,9 @@ public class HW04Menus {
                     float porcent;
                     float result;
                     System.out.println("enter a number -> ");
-                    number = input.nextInt();
+                    number = input.nextFloat();
                     System.out.println("enter a porcent -> ");
-                    porcent = input.nextInt();
+                    porcent = input.nextFloat();
                     result = (number/porcent)*100;
                     System.out.println(" the porcentage is --> " + result);
                     break;
@@ -67,7 +67,7 @@ public class HW04Menus {
                     float finishresult;
                    
                     System.out.println("enter logarithm -> ");
-                    logarithm= input.nextInt();
+                    logarithm= input.nextFloat();
                      finishresult =(float) Math.log(logarithm);
                     System.out.println(" the logarithm is --> " + finishresult);
                     break;
@@ -81,7 +81,7 @@ public class HW04Menus {
                     float area;
                   
                     System.out.println("enter side -> ");
-                    side= input.nextInt();
+                    side= input.nextFloat();
                     apothem =(float) (side/1.15);
                     area =(float)((3*side)*apothem);
                     System.out.println(" the area  --> " + area);

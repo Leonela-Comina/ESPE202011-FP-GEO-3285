@@ -1,9 +1,12 @@
+
 package hw04menus;
+
 import java.util.Scanner;
+
 public class HW04Menus {
-    public static void main(String[] args) {
+public static void main(String[] args) {
     
-    Scanner input = new Scanner(System.in);
+Scanner input = new Scanner(System.in);
         boolean mainLoop = true;
         int option;
 
@@ -24,10 +27,10 @@ public class HW04Menus {
                 case 1:
                     int base;
                     float root;
-                    
+
                     System.out.println("enter a number -> ");
                     base = input.nextInt();
-                    
+
                     root=(float)Math.sqrt(base);
                     System.out.println(" The square root of " + base + 
                              " is equal to --> " + root);
@@ -37,7 +40,7 @@ public class HW04Menus {
                     double power;
                     double exponent = 0;
                     System.out.println("enter a base -> ");
-                    base2 = input.nextInt();
+                    base2 = input.nextDouble();
                     System.out.println("enter a exponent -> ");
                     exponent = input.nextDouble();
                    power= Math.pow(base2, exponent);
@@ -58,28 +61,28 @@ public class HW04Menus {
                     result = (number/porcent)*100;
                     System.out.println(" the porcentage is --> " + result);
                     break;
-                    
-                    
-                    
+
+
+
                 case 4:
                     System.out.println("The natural logarithm is");
                     float logarithm;
                     float finishresult;
-                   
+
                     System.out.println("enter logarithm -> ");
                     logarithm= input.nextFloat();
                      finishresult =(float) Math.log(logarithm);
                     System.out.println(" the logarithm is --> " + finishresult);
                     break;
-                    
-                    
-                    
+
+
+
                 case 5:
                     System.out.println("The Hexagon Area is");
                     float side;
                     float apothem;
                     float area;
-                  
+
                     System.out.println("enter side -> ");
                     side= input.nextFloat();
                     apothem =(float) (side/1.15);
@@ -105,4 +108,7 @@ public class HW04Menus {
     }
 
 }
-        
+ 
+
+    
+

@@ -1,40 +1,34 @@
 package ws10.functions;
-public class WS10Functions {
-public static void main(String[] args) {
 
-int divd = 5;
+public class WS10Functions {
+
+    public static void main(String[] args) {
+
+        int divd = 5;
         int divr = 10;
         float quotient = 0;
         int x = 0;
         int y = 0;
 
-        //call to divideTwoNumbers() function
         quotient = divideTwoNumbers(divd, divr);
 
-        System.out.println("Quotient of 5 and 10 is -> " + quotient); //0.5 or ?
-
+        System.out.println("Quotient of 5 and 10 is -> " + quotient);
         y = f(3);
         System.out.println("3^2 -> " + y);
 
         y = f(-3);
-        System.out.println("-3^2 -> " + y); //9
-        
+        System.out.println("-3^2 -> " + y);
+
         x = -1;
         y = f(x);
         System.out.println("the square of -> " + x + " <- is equal to -> " + y);
 
     }
 
-    //function definition
-    //return data type    name     parameter1   parameter2
     public static float divideTwoNumbers(int dividend, int divisor) {
-        //body of the function
+
         float quotient = 0.0F;
-
-        //             5        10   -> 0.5
-        // float     int        int
         quotient = (float) dividend / (float) divisor;
-
         return quotient;
     }
 
@@ -53,8 +47,5 @@ int divd = 5;
 
         return y;
     }
- 
 
 }
-
-

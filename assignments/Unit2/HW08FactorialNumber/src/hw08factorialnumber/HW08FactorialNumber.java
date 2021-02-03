@@ -12,7 +12,7 @@ public class HW08FactorialNumber {
 
         do {
             System.out.println(" ========= Factorial Number  =======");
-            System.out.println("1. -> calculate the factorial of a number ");
+            System.out.println("1. -> Calculate the factorial of a number ");
             System.out.println("0. -> Exit ");
 
             System.out.println(" Choose one of the options --> ");

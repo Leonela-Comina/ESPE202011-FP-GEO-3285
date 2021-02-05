@@ -74,7 +74,7 @@ public class HW09EmbeddedStructures {
                 }
 
             }
-        } while (opperator_1 != 0 && opperator_2 != 0);
+        } while ( 
         System.out.println("See you later");
     }
 }      

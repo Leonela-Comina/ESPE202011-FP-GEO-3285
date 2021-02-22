@@ -26,16 +26,6 @@ public class Quiz1Arrays {
         
        for( String animal : animals1){
         System.out.println("the weight of these wild animals are ->" + animal);
-        
-  int wild_animals = 0;
-  String[] animals;
-  int[] weight;
-  
-  Scanner scanner = new Scanner(System.in);
-   System.out.println("Enter the number of animals of which you want to see their weight ->");
-     wild_animals= scanner.nextInt();
-     
-     animals
-    }
+         }
 }
 }

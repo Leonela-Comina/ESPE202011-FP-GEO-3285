@@ -12,17 +12,13 @@ public class HW15MatrixOperation {
         Scanner input = new Scanner(System.in);
         int m = 0;
         int n = 0;
-        int m1 = 0;
-        int n1 = 0;
-        int m2 = 0;
-        int n2 = 0;
         int[][] MatrixA;
         int[][] MatrixB;
         int[][] MatrixC;
         System.out.println("Matrix A");
-        System.out.println("Welcome \n Plese enter Matrix A dimesion \n Rows number");
+        System.out.println("Welcome \n Plese enter Matrix A dimension \n Rows number");
         n = input.nextInt();
-        System.out.println("Plese enter Matrix A dimesion \n Columns number  ");
+        System.out.println("Plese enter Matrix A dimension \n Columns number  ");
         m = input.nextInt();
 
         MatrixA = new int[m][n];
@@ -41,13 +37,13 @@ public class HW15MatrixOperation {
         for (int i = 0; i < m; i++) {
             System.out.println("");
             for (int j = 0; j < n; j++) {
-                System.out.print("\t" + MatrixA[i][j]);
-            }
+                System.out.print("\t" + MatrixA[i][j]); 
+                         }
         }
         System.out.println("Matrix B");
-        System.out.println("Plese enter Matrix B dimesion \n Rows number  ");
+        System.out.println("Plese enter Matrix B dimension \n Rows number  ");
         n = input.nextInt();
-        System.out.println("Plese enter Matrix B dimesion \n Columns number  ");
+        System.out.println("Plese enter Matrix B dimension \n Columns number  ");
         m = input.nextInt();
 
         for (int i = 0; i < m; i++) {

@@ -24,9 +24,9 @@ public class WS15CorrectionQuizArrays {
 
         for (int i = 0; i < numberOfAnimals; i++) {
             scanner.nextLine();
-            System.out.print(" Please enter the name of the animal # " + (i+1) + " -> ");
+            System.out.print(" Please enter the name of the animal # " + (i+1) + " -> " );
             animals[i] = scanner.nextLine();
-            System.out.print(" Please enter " + animals[i] + " weight ->");
+            System.out.print(" Please enter " + animals[i] + " weight in kg ->" );
             weight[i] = scanner.nextFloat();
         }
 

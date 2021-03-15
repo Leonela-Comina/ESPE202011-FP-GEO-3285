@@ -7,7 +7,8 @@ package ws11.functionsandrecursion;
 public class WS11FunctionsAndRecursion {
 
     public static void main(String[] args) {
-
+    
+        System.out.println(" AUTHOR: LEONELA COMINA ");
         int divd = 5;
         int divr = 10;
         float quotient = 0;

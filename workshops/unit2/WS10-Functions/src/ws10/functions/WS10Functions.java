@@ -19,7 +19,7 @@ public class WS10Functions {
         y = f(-3);
         System.out.println("-3^2 -> " + y);
 
-        x = -1;
+        x = 25;
         y = f(x);
         System.out.println("the square of -> " + x + " <- is equal to -> " + y);
 

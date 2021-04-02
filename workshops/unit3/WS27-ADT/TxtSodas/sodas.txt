@@ -1,0 +1,4 @@
+COKE , Caramel , Sweet , 500.0 , 50.0
+FANTA , Orange , Sweet , 500.0 , 50.0
+SPRITE , Transparent , Without flavor , 500.0 , 50.0
+FIORAVANTI , Rose , Sweet , 500.0 , 50.0

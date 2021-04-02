@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="Firstnumber" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="secondNumber" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="thirdNumber" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="fourthNumber" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="fifthNumber" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="sixthNumber" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="sortNumber" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="txtnumber6" alignment="0" pref="27" max="32767" attributes="0"/>
+                      <Component id="txtnumber5" alignment="0" max="32767" attributes="0"/>
+                      <Component id="txtnumber4" alignment="0" max="32767" attributes="0"/>
+                      <Component id="txtnumber3" alignment="0" max="32767" attributes="0"/>
+                      <Component id="txtnumber2" alignment="0" max="32767" attributes="0"/>
+                      <Component id="txtnumber1" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="155" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="sortNumber" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Firstnumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtnumber1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="secondNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtnumber2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="thirdNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtnumber3" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="fourthNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtnumber4" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="fifthNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtnumber5" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="sixthNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtnumber6" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="89" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="sortNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="SORT NUMBERS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Firstnumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter the first number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="secondNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter the second number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="thirdNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter the third number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="fourthNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter the fourth number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="fifthNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter the fifth number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="sixthNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter the sixth number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtnumber1">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtnumber1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtnumber2">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtnumber3">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtnumber4">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtnumber5">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtnumber6">
+    </Component>
+  </SubComponents>
+</Form>

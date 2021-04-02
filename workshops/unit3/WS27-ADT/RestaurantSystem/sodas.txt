@@ -1,0 +1,17 @@
+
+COKE , Caramel , Sweet , 500.0 , 50.0
+FANTA , Orange , Sweet , 500.0 , 50.0
+SPRITE , Transparent , Without flavor , 500.0 , 50.0
+FIORAVANTI , Rose , Sweet , 500.0 , 50.0
+COKE , Caramel , Sweet , 500.0 , 50.0
+COKE , Caramel , Sweet , 50.0 , 500.0
+COKE , Caramel , Sweet , 50.0 , 500.0
+COKE , Caramel , Sweet , 500.0 , 50.0
+ , Caramel , Sweet , 500.0 , 50.0
+FIORAVANTI , Caramel , Sweet , 500.0 , 50.0
+COKE , Caramel , Sweet , 500.0 , 50.0 FANTA , Orange , Sweet , 500.0 , 50.0 SPRITE , Transparent , Without flavor , 500.0 , 50.0 FIORAVANTI , Rose , Sweet , 500.0 , 50.0 , Caramel , Sweet , 500.0 , 50.0
+COKE , Caramel , Sweet , 500.0 , 50.0
+FIORAVANTI , Black  , Sweet , 500.0 , 50.0
+COKE , Caramel , Sweet , 500.0 , 50.0
+Coke , Caramel , Sweet , 500.0 , 50.0
+Coke , Caramel , Bitter , 500.0 , 50.0
